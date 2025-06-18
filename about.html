@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ABOUT - The Jaffna Bounty</title>
+
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+    <!-- NAV SECTION -->
+
+    <header class="navbar">
+      <img src="img/logo.png" width="25px" height="50px" class="logo4mob">
+      <button class="menu-toggle" id="menuToggle">&#9776;</button>
+        <div class="side-panel">
+          <nav class="scroll">
+            <a href="index.html" class="nav-links">HOME</a>
+            <a href="specialdishes.html" class="nav-links">SPECIAL DISHES</a>
+            <a href="services.html" class="nav-links">SERVICES</a>
+            <a href="#" class="nav-links active">ABOUT</a>
+          </nav>
+        </div>
+    </header>
+
+    <!--END OF NAV SECTION -->
+
+
+    <!-- MAIN PAGE -->
+    
+      <!-- Hero/Slider Section -->
+      <section class="hero-section" style="background-image: url('img/cover.jpg');">
+        <div class="overlay">
+          <div class="hero-text">
+            <h1>About us</h1>
+          </div>
+        </div>
+      </section>
+    
+      <script>
+        // Toggle menu on mobile
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-links');
+        toggle.addEventListener('click', () => {
+          nav.classList.toggle('active');
+        });
+      </script>
+
+    <!-- END OF MAIN PAGE -->
+
+
+    <!-- ABOUT SECTION -->
+
+    <section class="special-dishes-section">
+        <div class="container">
+            <div class="row">
+                <p><img src="img/tamilchef.png" alt="" width="550px" height="350px" class="img1"></p>
+                <p class="mb-5"><img src="img/hotel.png" alt="" width="550px" height="350px" class="img2"></p>
+
+                <p align="left" class="p-size">Nestled in the heart of the city, The Jaffna Bounty opened its doors in early 2025 with a bold vision: to bring the rich and vibrant flavors of Northern Sri Lanka to a wider audience. Founded by culinary enthusiast and Jaffna-native, Mr. Kumar Sivaguru, the restaurant was born from a deep desire to honor tradition while offering a contemporary dining experience.</p>
+                <p align="left" class="p-size">Growing up in Jaffna, Kumar was immersed in the aromas of slow-cooked crab curries, fragrant mutton poriyals, and spicy dosai sizzling on cast-iron griddles. After moving abroad and spending over a decade in the hospitality industry, he dreamt of creating a space where people could not just eat, but feel the soul of Jaffna cuisine.</p>
+                <p align="left" class="p-size">The name “The Jaffna Bounty” reflects both the richness of the region’s culinary heritage and the generous spirit of its people. Every dish is crafted with hand-ground spices, locally-sourced ingredients, and recipes passed down through generations — some even handwritten in old Tamil script. Since its opening, The Jaffna Bounty has quickly gained attention for its authentic flavors, warm hospitality, and minimalist yet earthy decor inspired by the palmyra trees and red soil of northern Sri Lanka.</p>
+            </div>
+        </div>
+
+
+    </section> 
+
+    <!-- END OF ABOUT SECTION -->
+     
+
+    <!-- FOOTER SECTION-->
+
+    <section id="footer" role="contentinfo">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-col logo-col">
+            <h1 class="ftr-h1">ABOUT US</h1>
+            <p>
+              Founded by lifelong friends and food lovers, our journey began
+              with a shared passion for travel, family gatherings, and bold,
+              honest cooking.
+            </p>
+            <ul class="footer-social tab-cent">
+              <li><a href="#"><img src="icons/icons8-facebook-20.png"></a></li>
+              <li><a href="#"><img src="icons/icons8-instagram-20.png"></a></li>
+              <li><a href="#"><img src="icons/icons8-youtube-20.png"></a></li>
+              <li><a href="#"><img src="icons/icons8-linkedin-20.png"></a></li>
+            </ul>
+          </div>
+    
+          <div class="footer-col">
+            <h3>Opening Hours</h3>
+            <p><strong>Monday - Saturday:</strong><br>8AM - 11PM</p><br><br><br><br><br>
+            <p><strong>Sunday:</strong><br>11AM - 12AM</p>
+          </div>
+    
+          <div class="footer-col padder">
+            <h3>Contact Info</h3>
+            <p><strong>Address:</strong><br>Kankesanthurai Road, Jaffna</p><br><br><br>
+            <p><strong>Telephone:</strong><br>+94 21 221 2345</p><br><br><br>
+            <p><strong>Email:</strong><br>info@thejaffnabounty.com</p><br><br><br>
+          </div>
+
+          <div class="footer-col">
+              <h3>Services</h3>
+              <ul class="footer-links">
+                  <li><a href="services.html">Transportation</a></li>
+                  <li><a href="services.html">Room Services</a></li>
+                  <li><a href="services.html">Laundry Rooms</a></li>
+                  <li><a href="services.html">Wi-Fi</a></li>
+              </ul>
+              </div>
+    
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Service</a></li>
+            </ul>
+          </div>
+        </div>
+    
+        <div class="footer-bottom">
+          <p>
+            &copy;<script>document.write(new Date().getFullYear());</script> The Jaffna Bounty | Developed at 
+            <a href="https://colorlib.com" target="_blank">WEBbuilders</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+  <!-- END OF FOOTER SECTION -->
+
+  <script src="menu.js"></script>
+
+</body>
+</html>

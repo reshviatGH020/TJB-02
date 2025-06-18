@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SPECIAL DISHES - The Jaffna Bounty</title>
+
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+    <!-- NAV SECTION -->
+
+    <header class="navbar">
+      <img src="img/logo.png" width="25px" height="50px" class="logo4mob">
+      <button class="menu-toggle" id="menuToggle">&#9776;</button>
+        <div class="side-panel">
+          <nav class="scroll">
+            <a href="index.html" class="nav-links">HOME</a>
+            <a href="#" class="nav-links active">SPECIAL DISHES</a>
+            <a href="services.html" class="nav-links">SERVICES</a>
+            <a href="about.html" class="nav-links">ABOUT</a>
+          </nav>
+        </div>
+    </header>
+
+    <!--END OF NAV SECTION -->
+
+
+    <!-- MAIN PAGE -->
+    
+      <!-- Hero/Slider Section -->
+      <section class="hero-section" style="background-image: url('img/cover2.jpg');">
+        <div class="overlay">
+          <div class="hero-text">
+            <h1>Special Dishes from US</h1>
+          </div>
+        </div>
+      </section>
+    
+      <script>
+        // Toggle menu on mobile
+        const toggle = document.getElementById('menu-toggle');
+        const nav = document.getElementById('nav-links');
+        toggle.addEventListener('click', () => {
+          nav.classList.toggle('active');
+        });
+      </script>
+
+    <!-- END OF MAIN PAGE -->
+
+
+    <!-- LIST SECTION -->
+
+    <section class="special-dishes-section">
+        <h2 class="section-title">MAIN DISHES OUT NOW!!!!!</h2>
+        <div class="swiper special-dishes-slider">
+        <div class="swiper-wrapper">
+
+            <!-- Slide 1 -->
+            <div class="swiper-slide dish-card">
+            <img src="img/dishes_1.jpg" alt="Baked Broccoli">
+            <div class="dish-content">
+                <div class="price-tag">Rs. 1,550</div>
+                <h3>Baked Broccoli, Gorgonzola Cheese, Capers</h3>
+            </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide dish-card">
+            <img src="img/dishes_5.jpg" alt="Mushroom Food">
+            <div class="dish-content">
+                <div class="price-tag">Rs. 1,400</div>
+                <h3>Meatball Spaghetti</h3>
+            </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="swiper-slide dish-card">
+            <img src="img/dishes_3.jpg" alt="Steak Spaghetti">
+            <div class="dish-content">
+                <div class="price-tag">Rs. 1,200</div>
+                <h3>Steak Spaghetti</h3>
+            </div>
+            </div>
+            
+            <!-- Slide 4 -->
+            <div class="swiper-slide dish-card">
+            <img src="img/dishes_4.jpg" alt="Grilled Chicken with Naan & Raw Salad">
+            <div class="dish-content">
+                <div class="price-tag">Rs. 1,750</div>
+                <h3>Grilled Chicken with Naan & Raw Salad</h3>
+            </div>
+            </div>
+        </div>
+        
+        <!-- Navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+  <!-- END OF LIST SECTION -->
+
+
+  <!-- FOOTER SECTION-->
+
+  <section id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-row">
+        <div class="footer-col logo-col">
+          <h1 class="ftr-h1">ABOUT US</h1>
+          <p>
+            Founded by lifelong friends and food lovers, our journey began
+            with a shared passion for travel, family gatherings, and bold,
+            honest cooking.
+          </p>
+          <ul class="footer-social tab-cent">
+            <li><a href="#"><img src="icons/icons8-facebook-20.png"></a></li>
+            <li><a href="#"><img src="icons/icons8-instagram-20.png"></a></li>
+            <li><a href="#"><img src="icons/icons8-youtube-20.png"></a></li>
+            <li><a href="#"><img src="icons/icons8-linkedin-20.png"></a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col">
+          <h3>Opening Hours</h3>
+          <p><strong>Monday - Saturday:</strong><br>8AM - 11PM</p><br><br><br><br><br>
+          <p><strong>Sunday:</strong><br>11AM - 12AM</p>
+        </div>
+  
+        <div class="footer-col padder">
+          <h3>Contact Info</h3>
+          <p><strong>Address:</strong><br>Kankesanthurai Road, Jaffna</p><br><br><br>
+          <p><strong>Telephone:</strong><br>+94 21 221 2345</p><br><br><br>
+          <p><strong>Email:</strong><br>info@thejaffnabounty.com</p><br><br><br>
+        </div>
+
+        <div class="footer-col">
+            <h3>Services</h3>
+            <ul class="footer-links">
+                <li><a href="services.html">Transportation</a></li>
+                <li><a href="services.html">Room Services</a></li>
+                <li><a href="services.html">Laundry Rooms</a></li>
+                <li><a href="services.html">Wi-Fi</a></li>
+            </ul>
+            </div>
+  
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Service</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="footer-bottom">
+        <p>
+          &copy;<script>document.write(new Date().getFullYear());</script> The Jaffna Bounty | Developed at 
+          <a href="https://colorlib.com" target="_blank">WEBbuilders</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- END OF FOOTER SECTION -->
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        new Swiper('.special-dishes-slider', {
+          loop: true,
+          slidesPerView: 1,
+          spaceBetween: 20,
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          breakpoints: {
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }
+        });
+      </script>
+
+      <script src="menu.js"></script>
+
+</body>
+</html>
